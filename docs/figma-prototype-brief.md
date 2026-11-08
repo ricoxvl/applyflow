@@ -1,8 +1,8 @@
 # ApplyFlow — Initial Figma Prototype Brief (v0.1)
 
 **Basis:** Reddit-based secondary discovery, not interviews.  
-**State:** Low-fidelity concept to test and revise, **not yet implemented in Figma or code**.  
-**Budget:** $0. Responsive web app, with mobile-first screens and desktop adaptations.
+**State:** Figma prototype created November 7, 2026, with four editable mobile screens, a responsive desktop overview, and 18 clickable mobile navigation links. These are design mockups, not a coded application.  
+**Budget:** $0. Mobile-first web application concept.\n**Figma design:** https://www.figma.com/design/AKLLIxOhHKBs8qdTUhKX2t?node-id=1-18
 
 ## Product direction
 **ApplyFlow: Internship search, minus the admin.**
@@ -74,3 +74,14 @@ Record completion, time, errors, questions, and subjective burden. Observe 5–8
 3. Connect flows: Today → Quick Add → Applications → Detail → Today.
 4. Run the four moderated tasks above, revise based on evidence.
 5. Move to visual design and a coded MVP **only after** the core flow proves useful.
+
+
+## Prototype implementation status — November 7, 2026
+
+The Figma file now contains editable **Today, Quick Add, Applications, Opportunity Detail** mobile layouts and a **Desktop Overview** frame. The mobile frames have 18 click-through links for the main paths: Today → Quick Add → Applications → Opportunity Detail → back, plus bottom navigation. Long mobile content scrolls beneath the bottom navigation.
+
+**Design direction:** Quiet productivity software. Warm off-white canvas, crisp typography, single blue accent, thin borders, restrained status pills. No AI chatbot interface, artificial predictive scores, neon gradients, or automated claims.
+
+**Demo data:** All company names, users, job stages, dates, and counts are fictional and illustrative. The Figma buttons and form inputs simulate navigation only; they do not save data, run validation, contact recruiters, or access job listings.
+
+**Deliberately postponed:** Duplicate-warning overlay, real editable form states, detailed edge cases, authentication, actual data persistence, and UX validation. These should follow first-hand student tests, not be presented as shipped product capabilities.
